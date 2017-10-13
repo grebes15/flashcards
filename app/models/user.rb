@@ -3,6 +3,7 @@ class User < ApplicationRecord
 
   has_many :decks
   has_many :rounds
+  has_many :guesses, through: :rounds, source: :guesses
 
   validates :username, :email, :password, presence: true
   validates :username, :email, uniqueness: true
