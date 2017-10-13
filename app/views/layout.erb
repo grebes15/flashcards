@@ -23,8 +23,8 @@
 
   <title>Flashcards!</title>
 </head>
+<body class="#fafafa grey lighten-5">
  <% if current_user %>
-    <body>
     <nav class="light-blue lighten-1" role="navigation">
     <div class="nav-wrapper container">
       <a id="logo-container" href="/" class="brand-logo">Flashcards</a>
@@ -45,7 +45,6 @@
   <%= yield %>
 
   <% else %>
-    <body>
     <nav class="light-blue lighten-1" role="navigation">
     <div class="nav-wrapper container">
       <a id="logo-container" href="/" class="brand-logo">Flashcards</a>
