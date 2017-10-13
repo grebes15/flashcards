@@ -22,7 +22,7 @@ We'll want to get a thorough understanding of the application that we need to bu
 
 #### Round description  
 
-**Due:** 12:30pm
+**Due:** 2:00pm
 After a user selects a deck, they play a round.  We have specific requirements for what should happen when a user plays a  round.
 
 - The user plays every card in the deck.
