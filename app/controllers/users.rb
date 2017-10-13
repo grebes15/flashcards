@@ -12,3 +12,12 @@ post '/users' do
     erb :'users/new'
   end
 end
+
+get '/users/:id' do
+  if current_user
+    erb :'users/show'
+  else
+    status 401
+    redirect '/'
+  end
+end
