@@ -1,6 +1,9 @@
 class User < ApplicationRecord
   include BCrypt
 
+  has_many :decks
+  has_many :rounds
+
   validates :username, :email, :password, presence: true
   validates :username, :email, uniqueness: true
 
@@ -22,3 +25,4 @@ class User < ApplicationRecord
   	end
   end
 end
+
