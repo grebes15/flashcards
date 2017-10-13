@@ -18,11 +18,13 @@ We'll want to get a thorough understanding of the application that we need to bu
 ### Deliverables
 
 #### DB Schema
+
 **Due:** 11:00pm
 
 #### Round description  
 
 **Due:** 2:00pm
+
 After a user selects a deck, they play a round.  We have specific requirements for what should happen when a user plays a  round.
 
 - The user plays every card in the deck.
@@ -34,6 +36,7 @@ After a user selects a deck, they play a round.  We have specific requirements f
 #### Round statistics description
 
 **Due:** 3:00pm
+
 After a user completes a round, the user should be shown statistics for the round.  We have specific requirements for what statistics should be displayed.
 
 - Name of the deck played.
@@ -53,6 +56,7 @@ Registered users should have a profile page that showcases their flashcard histo
 #### Presentation
 
 **Due:** 5:30pm
+
 Work with your group to come up with a presentation to present to us.
 
 ## Conclusion
