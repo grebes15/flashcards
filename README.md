@@ -1,13 +1,6 @@
 # Web Flash Cards 
 
 ## Summary
-We're going to create a web-based flash card application.  Our application will present users with decks of flash cards.  Users will select a deck and play a round of flash cards.
-
-This will be our most complicated web application yet.  In addition to getting over the technical hurdles, this challenge will also have dimensions of product management.  We'll begin to get a feel for how to manage complexity as projects grow and become more nuanced on both the front- and backends. We'll need to divide labor and collaborate as a team.  As in the real-world, we'll also be faced with incomplete and ambiguous specifications.
-
-
-## Releases
-### Release 1: Build the MVP
 
 As a user, I visit the homepage and see a list of decks.  I click on the name of a deck and play a round with that deck.  After the round, I see stats on how well I performed.  If I've logged in, I can then visit my profile to see stats for all the rounds I've played.
 
