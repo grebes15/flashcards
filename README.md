@@ -15,6 +15,11 @@ We'll want to get a thorough understanding of the application that we need to bu
 
 *Note:*  We'll most likely need at least the following models: `User`, `Deck`, `Card`, `Round`, and `Guess`.
 
+### Deliverables
+
+#### DB Schema
+**Due:** 11:00pm
+
 #### Round description  
 
 **Due:** 12:30pm
