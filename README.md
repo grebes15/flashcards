@@ -17,12 +17,14 @@ We'll want to get a thorough understanding of the application that we need to bu
 
 ### Deliverables
 
-1. DB Schema
+#### 1. DB Schema
+
+**Due:** 11:00am
+
+Design a scheme for your app
 
 
-  **Due:** 11:00am
-
-2. Round description  
+#### 2. Round description  
 
   **Due:** 2:00pm
 
@@ -34,7 +36,7 @@ We'll want to get a thorough understanding of the application that we need to bu
   - After submitting a guess, the user is informed whether or not the guess was correct and shown the correct answer.
   - The round continues until each card is answered correctly—after going through each card, cards answered incorrectly will be displayed again.
 
-3. Round statistics description
+#### 3. Round statistics description
 
   **Due:** 3:00pm
 
@@ -44,7 +46,7 @@ We'll want to get a thorough understanding of the application that we need to bu
   - The number of cards answered correctly on the first guess compared to the number of cards in the deck.
   - Total number of guesses made.
 
-4. Profile description
+#### 4. Profile description
 
   **Due:** 4:00pm
 
@@ -54,7 +56,7 @@ We'll want to get a thorough understanding of the application that we need to bu
   - Statistics should be organized by deck and displayed in chronological order.
   - For each round, required details are the date the round was played, the number of cards in the deck, the number of cards answered correctly on the first guess, and the total number of guesses needed to complete the round.
 
-5. Presentation
+#### 5. Presentation
 
   **Due:** 5:30pm
 
