@@ -24,7 +24,7 @@
 </head>
  <% if current_user %>
     <body> <nav class="light-blue lighten-1" role="navigation">
-    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Logo</a>
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Flashcards</a>
       <ul class="right hide-on-med-and-down">
         <li><a href="/sessions/logout">Log out</a></li>
         <li><a href='/users/<%= current_user.id %>'>My Profile</a></li>
@@ -34,7 +34,6 @@
         <li><a href='/users/<%= current_user.id %>'>My Profile</a></li>
         <li><a href="/sessions/logout">Log Out</a></li>
       </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
   </nav>
 
@@ -42,7 +41,7 @@
 
   <% else %>
     <body> <nav class="light-blue lighten-1" role="navigation">
-    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Logo</a>
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Flashcards</a>
       <ul class="right hide-on-med-and-down">
         <li><a href="/users/new">Register</a></li>
         <li><a href="/sessions/new">Login</a></li>
@@ -52,12 +51,11 @@
         <li><a href="/users/new">Register</a></li>
         <li><a href="/sessions/new">Login</a></li>
       </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
   </nav>
 
   <%= yield %>
-      
+
   <% end %>
       <footer class="page-footer orange">
     <div class="container">
@@ -75,7 +73,7 @@
             <li><a class="white-text" href="#!">Andres</a></li>
             <li><a class="white-text" href="#!">Samory</a></li>
             <li><a class="white-text" href="#!">Penn</a></li>
-            <li><a class="white-text" href="#!">Penn</a></li>
+            <li><a class="white-text" href="#!">David</a></li>
           </ul>
         </div>
       </div>
