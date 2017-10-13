@@ -24,7 +24,7 @@
 </head>
  <% if current_user %>
     <body> <nav class="light-blue lighten-1" role="navigation">
-    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Flashcards</a>
+    <div class="nav-wrapper container"><a id="logo-container" href="/" class="brand-logo">Flashcards</a>
       <ul class="right hide-on-med-and-down">
         <li><a href="/sessions/logout">Log out</a></li>
         <li><a href='/users/<%= current_user.id %>'>My Profile</a></li>
@@ -41,7 +41,7 @@
 
   <% else %>
     <body> <nav class="light-blue lighten-1" role="navigation">
-    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Flashcards</a>
+    <div class="nav-wrapper container"><a id="logo-container" href="/" class="brand-logo">Flashcards</a>
       <ul class="right hide-on-med-and-down">
         <li><a href="/users/new">Register</a></li>
         <li><a href="/sessions/new">Login</a></li>
