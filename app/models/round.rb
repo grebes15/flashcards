@@ -4,5 +4,5 @@ class Round < ApplicationRecord
  has_many :guesses 
  has_many :guessed_cards, through: :guesses, source: :card
 
- validates :deck, :user presence: true
+ validates :deck, :user, presence: true
 end
