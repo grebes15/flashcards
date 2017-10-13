@@ -21,7 +21,7 @@ We'll want to get a thorough understanding of the application that we need to bu
 
 **Due:** 11:00am
 
-Design a scheme for your app
+Design a scheme for your app and present to an instructor.
 
 
 ### 2. Round description  
