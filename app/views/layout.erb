@@ -7,6 +7,7 @@
     See: http://necolas.github.com/normalize.css/
   -->
   <!-- Compiled and minified CSS -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
 
   <!-- Compiled and minified JavaScript -->
@@ -16,23 +17,27 @@
     application.css is where you put your styles
   -->
   <link rel="stylesheet" href="/css/application.css">
-
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script src="/js/application.js"></script>
 
-  <title></title>
+  <title>Flashcards!</title>
 </head>
  <% if current_user %>
-    <body> <nav class="light-blue lighten-1" role="navigation">
-    <div class="nav-wrapper container"><a id="logo-container" href="/" class="brand-logo">Flashcards</a>
+    <body>
+    <nav class="light-blue lighten-1" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="/" class="brand-logo">Flashcards</a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="/sessions/logout">Log out</a></li>
         <li><a href='/users/<%= current_user.id %>'>My Profile</a></li>
+        <li><a href="/sessions/logout">Log out</a></li>
+        <i class="material-icons">face</i>
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
         <li><a href='/users/<%= current_user.id %>'>My Profile</a></li>
         <li><a href="/sessions/logout">Log Out</a></li>
+        <li><i class="face"></i></li>
       </ul>
     </div>
   </nav>
@@ -40,8 +45,10 @@
   <%= yield %>
 
   <% else %>
-    <body> <nav class="light-blue lighten-1" role="navigation">
-    <div class="nav-wrapper container"><a id="logo-container" href="/" class="brand-logo">Flashcards</a>
+    <body>
+    <nav class="light-blue lighten-1" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="/" class="brand-logo">Flashcards</a>
       <ul class="right hide-on-med-and-down">
         <li><a href="/users/new">Register</a></li>
         <li><a href="/sessions/new">Login</a></li>
@@ -61,13 +68,13 @@
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
-          <h5 class="white-text">The Bro Bro's</h5>
+          <h5 class="white-text">Created by: Friends of Penn</h5>
           <p class="grey-text text-lighten-4">We are a team of DBC students working on a flashcard application project.</p>
 
 
         </div>
         <div class="col l3 s12">
-          <h5 class="white-text">Connect</h5>
+          <h5 class="white-text">Team:</h5>
           <ul>
             <li><a class="white-text" href="#!">Andres OG</a></li>
             <li><a class="white-text" href="#!">Andres</a></li>
