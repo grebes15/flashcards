@@ -1,7 +1,9 @@
-<h1><%= @deck.title %></h1>
+<h1> Deck Cards</h1>
 
-<form action="/card/<%= @deck.id %>/<%= @top_card %>" method="post">
-	<label for="card_question_input"><%= @question %></label>
-	<input id="card_question_input" name="guess[user_guess]" type="text">
-	<input type="submit" value="Submit">
-</form>
+<div class="container center">
+  <ul class="collection">
+    <% @cards.each do |card| %>
+      <li class="collection-item"><a href="#"><%= card.question %></a></li>
+      <% end %>
+  </ul>
+ </div>
