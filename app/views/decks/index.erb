@@ -2,8 +2,8 @@
 
  <div class="container center">
   <ul class="collection">
-    <% @deck_iteration.each do |i| %>
-      <li class="collection-item"><a href="#Link to show page for deck"><%= i.title %></a></li>
+    <% @decks.each do |deck| %>
+      <li class="collection-item"><a href="decks/<%= deck.id %> "><%= deck.title %></a></li>
       <% end %>
   </ul>
  </div>
